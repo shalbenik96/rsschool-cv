@@ -5,24 +5,22 @@
 	list-style: none;
 	text-decoration: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 html {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', 'Raleway', sans-serif;
 	font-size: 16px;
 	scroll-behavior: smooth;
 }
 
 .header {
 	padding: 1em 0 1em;
-	display: flex;
-	justify-content: center;
 	background-color: rgb(30, 255, 0);
 }
 .container {
-	width: 1170px;
+	max-width: 1170px;
+	/* display: flex; */
+	margin: 0 auto;
 	padding: 0 15px;
-	margin: auto;
 }
 .header-wrapper {
 	width: 100%;
@@ -51,4 +49,54 @@ html {
 	font-size: 16px;
 	font-weight: 700;
 	color: rgb(3, 3, 3);
+}
+.title {
+	padding: 1em 0 1em;
+}
+
+.title-container {
+	max-width: 1170px;
+	display: flex;
+	justify-content: center;
+	padding: 0 15px;
+}
+.title-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.developer-img {
+	width: 100px;
+	height: 100px;
+}
+.developer-img__item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.title-inner {
+	flex: 1 1 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+}
+.developer-name {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	width: 100%;
+}
+.developer-position {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 27px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	width: 100%;
 }
