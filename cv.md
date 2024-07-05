@@ -3,7 +3,7 @@
 
 ## Contacts
 - Phone: +375291318816
-- Email: vasilishalkevich@yahoo,com
+- Email: vasilishalkevich@yahoo.com
 - Instagram: https://www.instagram.com/vasyamyid96
 - Facebook: https://www.facebook.com/vasyamyid96
 
