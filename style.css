@@ -27,7 +27,7 @@ html {
 	justify-content: flex-end;
 }
 .navigation {
-	width: 40%;
+	width: 30%;
 	display: flex;
 	justify-content: center;
 }
@@ -119,8 +119,7 @@ html {
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-.contacts {
-}
+
 .contacts__item {
 	font-family: 'Montserrat';
 	font-weight: 400;
