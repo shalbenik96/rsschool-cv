@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./style.css">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<h1 class="title">Hello, bro!</h1>
+		<header class="header">
+			<div class="container">
+				<div class="header-wrapper">
+					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__list-item">
+								<a class="navigation__list-item-link" href="#contacts">Contacts</a>
+							</li>
+							<li class="navigation__list-item">
+								<a class="navigation__list-item-link" href="#information">Information</a>
+							</li>
+							<li class="navigation__list-item">
+								<a class="navigation__list-item-link" href="#skills">Skills</a>
+							</li>
+							<li class="navigation__list-item">
+								<a class="navigation__list-item-link" href="#education">Education</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="title">
+				<div class="container title-container">
+					<div class="title-wrapper">
+						<div class="developer-img">
+							<img
+								class="developer-img__item"
+								src="./img/avatars/vasili-shalkevich.jpg"
+								alt="vasili-shalkevich"
+							/>
+						</div>
+						<div class="title-inner">
+							<h1 class="developer-name">Vasili Shalkevich</h1>
+							<h3 class="developer-position">Student of Front-End Development</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cv">
+				<div class="container">
+					<div class="cv-wrapper" id="contacts">
+						<h3 class="cv-title">Contacts</h3>
+						<address class="contacts">
+							<p class="contacts__item">
+								Phone: <a class="contacts-link" href="tel:+375291318816"></a>+375291318816
+							</p>
+							<p class="contacts__item">
+								Email:
+								<a href="malito:vasilishalkevich@yahoo.com" class="contacts-link"></a
+								>vasilishalkevich@yahoo.com
+							</p>
+							<p class="contacts__item">
+								Instagram:
+								<a class="contacts-link" href="https://www.instagram.com/vasyamyid96"
+									>https://www.instagram.com/vasyamyid96</a
+								>
+							</p>
+							<p class="contacts__item">
+								Facebook:
+								<a class="contacts-link" href="https://www.facebook.com/vasyamyid96"
+									>https://www.facebook.com/vasyamyid96</a
+								>
+							</p>
+						</address>
+					</div>
+					<div class="cv-wrapper" id="information">
+						<h3 class="cv-title">Information</h3>
+						<h4 class="cv-subtitle">Goal and priorities</h4>
+						<p class="cv-text">
+							I want to connect my life with IT. I have a specific idea on how to apply IT skills in
+							life. I have had many attempts and now this is another one, but I will see it through
+							to the end. For me, IT is not so much about earning money, but more about a hobby. At
+							least for here and now. But I plan to become a master of my craft in this hobby and
+							monetize this skill. In general, I want to become a programmer, but my main goal is
+							not to make money from it, but to serve people. I have no work experience, I study
+							with great inspiration.
+						</p>
+						<h4 class="cv-subtitle">Qualities</h4>
+						<ol class="cv-list">
+							<li class="cv-list__item">Honesty</li>
+							<li class="cv-list__item">Responsibility</li>
+							<li class="cv-list__item">Kindness</li>
+							<li class="cv-list__item">Striving for the goal</li>
+						</ol>
+					</div>
+					<div class="cv-wrapper" id="skills">
+						<h3 class="cv-title">Skills</h3>
+						<p class="cv-text">A basic level of VSCode, Git & Github, html & css.</p>
+					</div>
+					<div class="cv-wrapper" id="education">
+						<h3 class="cv-title">Education</h3>
+						<ol class="cv-list">
+							<li class="cv-list__item">
+								Vocational Education (Construction plasterer-painter 3rd category)
+							</li>
+							<li class="cv-list__item">Training course 'Online school administrator'</li>
+							<li class="cv-list__item">Course on html & css</li>
+							<li class="cv-list__item">Training 'Regaining self-confidence'</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__inner footer__inner--left">
+						<a class="footer__item footer__item--left" href="https://github.com/shalbenik96"
+							>© Vasili Shalkevich</a
+						>
+					</div>
+					<div class="footer__inner footer__inner--right">
+						<a
+							class="footer__item footer__item--right"
+							href="https://rs.school/courses/javascript-ru"
+							><div class="footer__logo">
+								<img
+									class="footer__logo--item"
+									src="./img/logo/rs-school-logo.svg"
+									alt="rs-school"
+								/></div
+						></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

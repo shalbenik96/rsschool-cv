@@ -1,5 +1,236 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+	font-family: 'Montserrat', 'Raleway', sans-serif;
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+.header {
+	padding: 1em 0 1em;
+	background-color: rgb(30, 255, 0);
+	margin-bottom: 10px;
+}
+.container {
+	max-width: 1170px;
+	/* display: flex; */
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.navigation {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+.navigation__list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.navigation__list:last-child {
+	margin-right: 0;
+}
+.navigation__list-item {
+	margin-right: 15px;
+}
+.navigation__list-item-link {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 700;
+	color: rgb(3, 3, 3);
+}
 .title {
-	color: brown;
-	text-transform: uppercase;
+	padding: 1em 0 1em;
+	margin-bottom: 10px;
+}
+
+.title-container {
+	max-width: 1170px;
+	display: flex;
+	justify-content: center;
+	padding: 0 15px;
+}
+.title-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.developer-img {
+	width: 100px;
+	height: 100px;
+}
+.developer-img__item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.title-inner {
+	flex: 1 1 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+}
+.developer-name {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	width: 100%;
+}
+.developer-position {
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 27px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	width: 100%;
+}
+.cv {
+	padding: 1em 0 1em;
+	margin-bottom: 10px;
+}
+.cv-wrapper {
+	margin-bottom: 10px;
+}
+.cv-wrapper:last-child {
+	margin-bottom: 0;
+}
+.cv-title {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 27px;
+	color: rgb(3, 3, 3);
+	width: 30%;
 	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.contacts__item {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+.contacts__item:last-child {
+	margin-bottom: 0;
+}
+.contacts-link {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.3;
+	text-decoration: underline;
+}
+.cv-subtitle {
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 21px;
+	color: rgb(3, 3, 3);
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.cv-text {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.5;
+	color: rgb(3, 3, 3);
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.cv-list {
+	list-style: none;
+}
+.cv-list__item {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1.3;
+	list-style-type: disc;
+	color: rgb(3, 3, 3);
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+.cv-list__item:last-child {
+	margin-bottom: 0;
+}
+.footer {
+	padding: 1em 0 1em;
+	background-color: rgb(30, 255, 0);
+}
+.footer__wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__inner {
+	display: flex;
+}
+.footer__inner--left {
+	padding: 0 15px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__item--left {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+}
+.footer__item--left::before {
+	content: '2024 July';
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	color: rgb(3, 3, 3);
+	cursor: default;
+}
+.footer__inner--right {
+	width: 15%;
+	justify-content: center;
+	align-items: center;
+}
+.footer__item--right {
+	width: 33%;
+	height: 50px;
+}
+.footer__logo {
+	width: 100%;
+	height: 100%;
+}
+.footer__logo--item {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
